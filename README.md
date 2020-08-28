@@ -1,4 +1,4 @@
-Old version of Drupal 7 ready to install.
+# Old version of Drupal 7 ready to install.
 
 Used by me in my old projects (D7), kept here only for study and maintenance purposes.
 
@@ -10,5 +10,5 @@ Supported until November 2022. Use this version for sites already running Drupal
 - Spanish core locale file included.
 
 <div align="center">
-  <img src="capture.jpg"  width="800" height="auto">
+  <img src="capture.JPG"  width="800" height="auto">
 </div>
