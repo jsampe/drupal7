@@ -25,5 +25,12 @@ Work branch, contains Drupal 7 already installed, with a basic configuration and
 
 - Includes the Database, to import it.
 - Username: admin
-- password: drupal
+- Password: drupal
+- Only administrator allow to create accounts.
+- Core disabled modules:
+  + Color
+  + Overlay
+  + Comment
+  + Help
 - Includes settings.php with the usual configurations to avoid the most common errors.
++ Remenber to change, mail@mail.com, user and password.
