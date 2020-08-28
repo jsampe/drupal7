@@ -8,3 +8,7 @@ Supported until November 2022. Use this version for sites already running Drupal
 
 - Update to 7.72
 - Spanish core locale file included.
+
+<div align="center">
+  <img src="capture.jpg"  width="800" height="auto">
+</div>
