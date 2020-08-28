@@ -33,4 +33,4 @@ Work branch, contains Drupal 7 already installed, with a basic configuration and
   + Comment
   + Help
 - Includes settings.php with the usual configurations to avoid the most common errors.
-+ Remenber to change, mail@mail.com, user and password.
+- Remenber to change, mail@mail.com, user and password.
