@@ -9,6 +9,21 @@ Supported until November 2022. Use this version for sites already running Drupal
 - Update to 7.72
 - Spanish core locale file included.
 
+# Main branch.
+
+Drupal 7 clean, ready to install, does not contain any customization.
+
+Remenber to select Spanish locale or English.
+
 <div align="center">
-  <img src="capture.JPG"  width="600" height="auto">
+  <img src="capture.JPG"  width="400" height="auto">
 </div>
+
+# Development Branch.
+
+Work branch, contains Drupal 7 already installed, with a basic configuration and customized by me.
+
+- Includes the Database, to import it.
+- Username: admin
+- password: drupal
+- Includes settings.php with the usual configurations to avoid the most common errors.
