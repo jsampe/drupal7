@@ -10,5 +10,5 @@ Supported until November 2022. Use this version for sites already running Drupal
 - Spanish core locale file included.
 
 <div align="center">
-  <img src="capture.JPG"  width="800" height="auto">
+  <img src="capture.JPG"  width="600" height="auto">
 </div>
