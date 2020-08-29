@@ -111,12 +111,11 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Views Field View
   + Views PDF Display
 - SECURITY
-  + Flood Unblock
-  + Paranoia (Plus Paranoia Sanitize)
   + Copy Prevention
+  + Flood Unblock
   + Login Security
+  + Paranoia (Plus Paranoia Sanitize)
   + No request new password
-  + Metatag
 
 # Libraries Modules and libraries added by module dependencies.
 Can be found in /sites/all/libraries all updates to last versions.
