@@ -41,8 +41,6 @@ Development Branch include my personal selection of modules, used by default in 
 
 Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this branch.
 
-- Esential modules
-  + Backup and Migrate
 - Administration
   + Navbar
 - Fields type
@@ -56,6 +54,8 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
 - Development
   + Database Optimization
   + Devel
+- EntityForms
+  + EntityForms
 - Time/Date
   + Date
   + Week day field
@@ -79,6 +79,7 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + PDF Preview
 - Plus/Others
   + Automatic Nodetitles
+  + Backup and Migrate
   + Block Attributes
   + Empty Front Page
   + Entity API
@@ -89,17 +90,24 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Password toggle
   + Pathauto
   + RobotsTxt
-  + Security Review
   + Simple Google Maps
   + Sitemap
   + Site Verification
   + Special Menu Items
   + Token
+  + Ultimate Cron
 - Panels
   + Panels
   + Panels BootStrap Layout
 - Rules
   + Rules
+- SECURITY
+  + Copy Prevention
+  + Flood Unblock
+  + Login Security
+  + Paranoia (Plus Paranoia Sanitize)
+  + No request new password
+  + Security Review
 - SEO
   + Metatag 
 - Display Suite
@@ -110,12 +118,6 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Views Conditional
   + Views Field View
   + Views PDF Display
-- SECURITY
-  + Copy Prevention
-  + Flood Unblock
-  + Login Security
-  + Paranoia (Plus Paranoia Sanitize)
-  + No request new password
 
 # Libraries Modules and libraries added by module dependencies.
 Can be found in /sites/all/libraries all updates to last versions.
