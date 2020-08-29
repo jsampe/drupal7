@@ -41,12 +41,11 @@ Development Branch include my personal selection of modules, used by default in 
 
 Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this branch.
 
-- Esential modules:
+- Esential modules
   + Backup and Migrate
-
 - Administration
   + Navbar
-- Fields type:
+- Fields type
   + Email
   + Link
   + Entity reference
@@ -116,9 +115,9 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
 Can be found in /sites/all/libraries all updates to last versions.
 
   + Libraries
-    + Backbone JavaScript library
-    + Underscore JavaScript library
-    + Modernizr custom build
+  + Backbone JavaScript library
+  + Underscore JavaScript library
+  + Modernizr custom build
 
 - SECURITY
   + Flood Unblock
