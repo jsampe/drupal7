@@ -110,6 +110,13 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Views Conditional
   + Views Field View
   + Views PDF Display
+- SECURITY
+  + Flood Unblock
+  + Paranoia (Plus Paranoia Sanitize)
+  + Copy Prevention
+  + Login Security
+  + No request new password
+  + Metatag
 
 # Libraries Modules and libraries added by module dependencies.
 Can be found in /sites/all/libraries all updates to last versions.
@@ -118,11 +125,3 @@ Can be found in /sites/all/libraries all updates to last versions.
   + Backbone JavaScript library
   + Underscore JavaScript library
   + Modernizr custom build
-
-- SECURITY
-  + Flood Unblock
-  + Paranoia (Plus Paranoia Sanitize)
-  + Copy Prevention
-  + Login Security
-  + No request new password
-  + Metatag
