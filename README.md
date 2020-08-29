@@ -34,3 +34,96 @@ Work branch, contains Drupal 7 already installed, with a basic configuration and
   + Help
 - Includes settings.php with the usual configurations to avoid the most common errors.
 - Remenber to change, mail@mail.com, user and password.
+
+# Custom modules added by me.
+
+Development Branch include my personal selection of modules, used by default in my projects.
+
+Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this branch.
+
+- Esential modules:
+  + Backup and Migrate
+
+- Administration
+  + Navbar
+- Fields type:
+  + Email
+  + Link
+  + Entity reference
+- Spam Control
+  + Captcha
+  + reCaptcha
+  + Honeypot
+- Development
+  + Database Optimization
+  + Devel
+- Time/Date
+  + Date
+  + Week day field
+- Input Filters
+  + Pathologic
+- User interface
+  + jQuery Update
+  + Wysiwyg
+- CHAOS TOOL SUITE
+  + CHAOS Tools
+- Sitemap
+  + XML Sitemap
+- Menu
+  + TB Mega Menu
+- Multilingual
+  + Localization client
+  + Localization update
+- Multimedia
+  + File Entity
+  + Media
+  + PDF Preview
+- Plus/Others
+  + Automatic Nodetitles
+  + Block Attributes
+  + Empty Front Page
+  + Entity API
+  + EU Cookie Compilance
+  + Exclude node title
+  + Font Awesome
+  + Node clone
+  + Password toggle
+  + Pathauto
+  + RobotsTxt
+  + Security Review
+  + Simple Google Maps
+  + Sitemap
+  + Site Verification
+  + Special Menu Items
+  + Token
+- Panels
+  + Panels
+  + Panels BootStrap Layout
+- Rules
+  + Rules
+- SEO
+  + Metatag 
+- Display Suite
+  + Display Suite
+- Views
+  + Views
+  + Views BootStrap
+  + Views Conditional
+  + Views Field View
+  + Views PDF Display
+
+# Libraries Modules and libraries added by module dependencies.
+Can be found in /sites/all/libraries all updates to last versions.
+
+  + Libraries
+    + Backbone JavaScript library
+    + Underscore JavaScript library
+    + Modernizr custom build
+
+- SECURITY
+  + Flood Unblock
+  + Paranoia (Plus Paranoia Sanitize)
+  + Copy Prevention
+  + Login Security
+  + No request new password
+  + Metatag
