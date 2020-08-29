@@ -114,7 +114,7 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
 # Libraries Modules and libraries added by module dependencies.
 Can be found in /sites/all/libraries all updates to last versions.
 
-  + Libraries
+- Libraries
   + Backbone JavaScript library
   + Underscore JavaScript library
   + Modernizr custom build
