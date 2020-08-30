@@ -1,6 +1,90 @@
 # Old version of Drupal 7 ready to install.
 
-Used by me in my old projects (D7), kept here only for study and maintenance purposes.
+Used by me in my old projects (Drupal 7), kept here only for reference and maintenance purposes.
+
+# Why now?
+
+I am very grateful to Drupal 7, for what it has given me and for the time I have spent with it, although many of my old projects have already been migrated to newer versions of Drupal, I have decided to keep this repository first as a reference and second as a unit of study for the projects still existing in Drupal 7, which are many.
+
+Practically all of us are already working with higher versions of Drupal so I have decided to make this repository public that I kept private.
+
+I hope that the maintainers of old sites find it useful.
+
+# Master Branch (CLEAN INSTALL).
+
+In the MASTER branch I have decided to keep Drupal 7 clean and ready to install manually, as we have done so many times.
+
+So if you want to install Drupal 7 locally or on your Server, just do a GIT CLONE of the MASTER branch to start.
+
+# Development Branch (INSTALLED).
+
+Perhaps I should have chosen the name "Installed" for this branch, but we are all more familiar with the terminology used.
+
+The real objective of this branch is to obtain a Drupal 7 and its Database with my personal selection of modules already installed and ready to use.
+
+# The problem.
+
+The way of working in Drupal 7 has been more or less the same until in the most modern versions the use of COMPOSER has been adopted.
+
+Download Drupal, install it, download the modules and libraries one by one and install it.
+
+Repeat it over and over again every time you need to start or every time you mount a new project.
+
+(More advanced users could also solve the problem by using DRUSH to install and a SCRIPT with the modules to be installed also with DRUSH, or not)
+
+# This Way.
+
+My way of working is very simple.
+
+## On your personal development pc or localhost:
+
+### Step 1
+
+Clone this repository in your folder by selecting the DEVELOPMENT branch
+
+$ Git clone --branch development https://gitlab.com/jsampedro/drupal-7.git yourfolder
+
+### Step 2
+
+Restore the Database.
+
+### Step 3
+
+Enter with user: admin and password: drupal.
+
+Ready.
+
+## On a remote computer or Hosting.
+
+The same, but remember to edit the SETTINGS.PHP file and change the name of the server and the name of the database to that of your server.
+
+# And now ?
+
+Logically, the first thing to do is change your administrator password.
+
+We already have Drupal ready, the next thing I usually do if it is a migration or update are enable the Backup and Migrate module and load the content.
+
+Take some time to review the list of modules and libraries installed, nothing is enabled by default.
+
+You can uninstall the modules from my list that are not needed or want or simply leave them disabled.
+
+Add the modules that your project needs.
+
+# Be free to star again.
+
+If you break everything, start over, that's how you learn, that's why I use GIT.
+
+At least you won't have to repeat the tedious installation process.
+
+# Why you don't use DRUSH to update your projects and modules ?
+
+I use Drush in drupal 7 every day.
+
+The problem is not that, some clients and projects decide not to pay maintenance, or simply the projects have not been updated for years.
+
+In this case, it is more comfortable for me to create a new local site by this procedure, make a copy of the content of the outdated site using Backup and Migrate, restore it locally, make the necessary changes and when it is ready to put the new version on the server.
+
+In the DEVELOPMENT branch I have decided to include all the modules and libraries that I have used over the years in carrying out projects, it is a rather long list of modules and it is very likely that they are not all necessary in the same project, in any In case those who are here are the ones that I have needed at some point in a project.
 
 No more Drupal 7 projects are development by me from the publication of Drupal 8.
 
