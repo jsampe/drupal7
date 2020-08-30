@@ -36,7 +36,7 @@ Go to localhost or your host name on hosting and install it.
 Remenber to select Spanish locale or English.
 
 <div align="center">
-  <img src="\CAPTURES\capture1.JPG"  width="400" height="auto">
+  <img src="/jsampedro/drupal-7/raw/CAPTURES/capture1.JPG" alt="screen capture" width="600" height="auto">
 </div>
 
 # Development Branch (INSTALLED).
