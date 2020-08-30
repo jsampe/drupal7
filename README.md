@@ -9,7 +9,7 @@ Supported until November 2022. Use this version for sites already running Drupal
 - Update to 7.72
 - Spanish core locale file included.
 
-# Main branch.
+# Master branch.
 
 Drupal 7 clean, ready to install, does not contain any customization.
 
