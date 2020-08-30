@@ -86,20 +86,25 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Automatic Nodetitles
   + Backup and Migrate
   + Block Attributes
+  + Block Class
+  + Checklist API
   + Empty Front Page
   + Entity API
   + EU Cookie Compilance
+  + Job Scheduler
   + Exclude node title
   + Font Awesome
   + Node clone
   + Password toggle
   + Pathauto
+  + Prev/Next
   + RobotsTxt
   + Simple Google Maps
   + Sitemap
   + Site Verification
   + Special Menu Items
   + Token
+  + Transliteration
   + Ultimate Cron
 - Panels
   + Panels
@@ -108,21 +113,31 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Rules
 - SECURITY
   + Copy Prevention
+  + Flood Control
   + Flood Unblock
+  + IP Ranges
   + Login Security
   + Paranoia (Plus Paranoia Sanitize)
   + No request new password
+  + Password policy
+  + Security Kit
   + Security Review
 - SEO
-  + Metatag 
+  + Metatag
+  + SEO Checklist
 - Display Suite
   + Display Suite
+- Variable
+  + Variable
 - Views
+  + Better Exposed Filters
   + Views
   + Views BootStrap
   + Views Conditional
   + Views Field View
   + Views PDF Display
+- Webform
+  + Webform
 
 # Libraries Modules and libraries added by module dependencies.
 They can be found in /sites/all/libraries, all updated to the latest versions with the exception of those that need a module in a specific version.
