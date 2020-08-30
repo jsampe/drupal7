@@ -36,7 +36,7 @@ Go to localhost or your host name on hosting and install it.
 Remenber to select Spanish locale or English.
 
 <div align="center">
-  <img src="![alt text](CAPTURES/capture1.JPG)" alt="screen capture" width="600" height="auto">
+  ![alt text](CAPTURES/capture1.JPG "Screen capture")
 </div>
 
 # Development Branch (INSTALLED).
