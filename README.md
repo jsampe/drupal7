@@ -36,7 +36,6 @@ Go to localhost or your host name on hosting and install it.
 Remenber to select Spanish locale or English.
 
 <div align="center">
-  ![alt text](CAPTURES/capture1.JPG "Screen capture")
   <img src="CAPTURES/capture1.JPG"  width="600" height="auto">
 </div>
 
