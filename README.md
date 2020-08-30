@@ -27,9 +27,9 @@ Does not contain any customization.
 
 Simple do:
 
-´´´shell
+```ruby
 $ Git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
-´´´
+```
 
 Go to localhost or your host name on hosting and install it.
 
