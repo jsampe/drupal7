@@ -28,7 +28,7 @@ Does not contain any customization.
 Simple do:
 
 ```console
-git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
+$ git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
 ```
 
 Go to localhost or your host name on hosting and install it.
@@ -47,13 +47,13 @@ The real objective of this branch is to obtain a Drupal 7 and its Database with 
 
 # The problem.
 
-The way of working in Drupal 7 has been more or less the same until in the most modern versions the use of COMPOSER has been adopted.
+The way of working in Drupal 7 has been more or less the same until in the most modern versions the use of ```COMPOSER``` has been adopted.
 
 Download Drupal, install it, download the modules and libraries one by one and install it.
 
 Repeat it over and over again every time you need to start or every time you mount a new project.
 
-(More advanced users could also solve the problem by using DRUSH to install and a SCRIPT with the modules to be installed also with DRUSH, or not)
+(More advanced users could also solve the problem by using ```DRUSH``` to install and a SCRIPT with the modules to be installed also with ```DRUSH```, or not)
 
 # This Way.
 
@@ -65,8 +65,9 @@ My way of working is very simple.
 
 Clone this repository in your folder by selecting the DEVELOPMENT branch
 
+```console
 $ Git clone --branch development https://gitlab.com/jsampedro/drupal-7.git yourfolder
-
+```
 ### Step 2
 
 Restore the Database.
@@ -79,7 +80,7 @@ Ready.
 
 ## On a remote computer or Hosting.
 
-The same, but remember to edit the SETTINGS.PHP file and change the name of the server and the name of the database to that of your server.
+The same, but remember to edit the ```SETTINGS.PHP``` file and change the name of the server and the name of the database to that of your server.
 
 # And now ?
 
@@ -103,7 +104,7 @@ At least you won't have to repeat the tedious installation process.
 
 # Why you don't use DRUSH to update your projects and modules ?
 
-I use Drush in drupal 7 every day.
+I use ```Drush``` in drupal 7 every day.
 
 The problem is not that, some clients and projects decide not to pay maintenance, or simply the projects have not been updated for years.
 
@@ -125,14 +126,14 @@ In the DEVELOPMENT branch I have included all the modules and libraries that I h
   + Overlay
   + Comment
   + Help
-- Includes settings.php with the usual configurations to avoid the most common errors.
+- Includes ```settings.php``` with the usual configurations to avoid the most common errors.
 - Remenber to change, mail@mail.com, user and password.
 
 # Custom modules added by me.
 
 My personal selection of modules, used by default in my projects.
 
-In the last resivision I have eliminated many that I consider that they are no longer necessary or that I prefer to do the same by hand, following a policy of "The fewer modules the better" but although many of the modules we already know that their functionality can be done "by hand "I keep them for compatibility with old sites.
+In the last resivision I have eliminated many that I consider that they are no longer necessary or that I prefer to do the same by hand, following a policy of "Fewer modules are better" but although many of the modules we already know that their functionality can be done "by hand "I keep them for compatibility with old sites.
 
 ## About SECURITY section.
 
@@ -140,8 +141,9 @@ I have grouped all the SECURITY modules in the same section.
 
 Most of the modules in this section do not have configured:
 
+```yml
 package = "Security"
-
+```
 In your .info file
 
 So most of them end up in the OTHERS section where there are already many modules and it is very annoying to find them.
@@ -268,6 +270,5 @@ They can be found in /sites/all/libraries, all updated to the latest versions wi
   + tcpdf (6.0.0.22)
   + fpdi (1.6.2)
   + Tinymce
-
 
 This is all, thanks to the thousands of people who made the Drupal 7 project possible and have continue to enjoy this great CMS.
