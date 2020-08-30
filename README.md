@@ -276,7 +276,7 @@ They can be found in /sites/all/libraries, all updated to the latest versions wi
 I have not included the translation files because they are not necessary to start and to make the process faster, update the translations manually through the configuration options.
 
 <div align="center">
-  <img src="\CAPTURES\capture1.JPG"  width="600" height="auto">
+  <img src="CAPTURES/capture2.JPG"  width="800" height="auto">
 </div>
 
 # End.
