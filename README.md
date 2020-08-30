@@ -27,8 +27,8 @@ Does not contain any customization.
 
 Simple do:
 
-```shell
-Git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
+```console
+git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
 ```
 
 Go to localhost or your host name on hosting and install it.
