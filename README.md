@@ -36,7 +36,7 @@ Go to localhost or your host name on hosting and install it.
 Remenber to select Spanish locale or English.
 
 <div align="center">
-  <img src="capture.JPG"  width="400" height="auto">
+  <img src="capture1.JPG"  width="400" height="auto">
 </div>
 
 # Development Branch (INSTALLED).
@@ -271,4 +271,13 @@ They can be found in /sites/all/libraries, all updated to the latest versions wi
   + fpdi (1.6.2)
   + Tinymce
 
+# What have I not included?
+
+I have not included the translation files because they are not necessary to start and to make the process faster, update the translations manually through the configuration options.
+
+<div align="center">
+  <img src="capture1.JPG"  width="600" height="auto">
+</div>
+
+# End.
 This is all, thanks to the thousands of people who made the Drupal 7 project possible and have continue to enjoy this great CMS.
