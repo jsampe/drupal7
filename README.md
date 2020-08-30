@@ -18,7 +18,7 @@ Remember that Drupal 7 ara only supported until November 2022.
 
 In the MASTER branch I have decided to keep Drupal 7 clean and ready to install manually, as we have done so many times.
 
-So if you want to install Drupal 7 locally or on your Server, just do a GIT CLONE of the MASTER branch to start.
+So if you want to install Drupal 7 locally or on your Server, just do a ```GIT CLONE``` of the MASTER branch to start.
 
 - Update to 7.72
 - Spanish core locale file included.
@@ -27,7 +27,7 @@ Does not contain any customization.
 
 Simple do:
 
-```ruby
+```shell
 $ Git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
 ```
 
