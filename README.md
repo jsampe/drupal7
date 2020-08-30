@@ -47,10 +47,14 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Email
   + Link
   + Entity reference
+- News Chanels (Import data)
+  + Feeds
 - Spam Control
   + Captcha
   + reCaptcha
   + Honeypot
+- Analytics
+  + Google Analytics
 - Development
   + Database Optimization
   + Devel
@@ -77,6 +81,7 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + File Entity
   + Media
   + PDF Preview
+  + SVG Embed
 - Plus/Others
   + Automatic Nodetitles
   + Backup and Migrate
@@ -120,9 +125,12 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Views PDF Display
 
 # Libraries Modules and libraries added by module dependencies.
-Can be found in /sites/all/libraries all updates to last versions.
+They can be found in /sites/all/libraries, all updated to the latest versions with the exception of those that need a module in a specific version.
 
 - Libraries
   + Backbone JavaScript library
   + Underscore JavaScript library
   + Modernizr custom build
+  + tcpdf (6.0.0.22)
+  + fpdi (1.6.2)
+  + Tinymce
