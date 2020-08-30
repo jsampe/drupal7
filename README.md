@@ -10,11 +10,34 @@ Practically all of us are already working with higher versions of Drupal so I ha
 
 I hope that the maintainers of old sites find it useful.
 
+No more Drupal 7 projects are development by me from the publication of Drupal 8.
+
+Remember that Drupal 7 ara only supported until November 2022.
+
 # Master Branch (CLEAN INSTALL).
 
 In the MASTER branch I have decided to keep Drupal 7 clean and ready to install manually, as we have done so many times.
 
 So if you want to install Drupal 7 locally or on your Server, just do a GIT CLONE of the MASTER branch to start.
+
+- Update to 7.72
+- Spanish core locale file included.
+
+Does not contain any customization.
+
+Simple do:
+
+´´´shell
+$ Git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
+´´´
+
+Go to localhost or your host name on hosting and install it.
+
+Remenber to select Spanish locale or English.
+
+<div align="center">
+  <img src="capture.JPG"  width="400" height="auto">
+</div>
 
 # Development Branch (INSTALLED).
 
@@ -62,7 +85,9 @@ The same, but remember to edit the SETTINGS.PHP file and change the name of the 
 
 Logically, the first thing to do is change your administrator password.
 
-We already have Drupal ready, the next thing I usually do if it is a migration or update are enable the Backup and Migrate module and load the content.
+And the second that you create a repository for your project and use this branch as your development branch.
+
+We already have Drupal ready, the next thing I usually do if it is a migration or update, enable the Backup and Migrate module and load the content.
 
 Take some time to review the list of modules and libraries installed, nothing is enabled by default.
 
@@ -84,32 +109,16 @@ The problem is not that, some clients and projects decide not to pay maintenance
 
 In this case, it is more comfortable for me to create a new local site by this procedure, make a copy of the content of the outdated site using Backup and Migrate, restore it locally, make the necessary changes and when it is ready to put the new version on the server.
 
-In the DEVELOPMENT branch I have decided to include all the modules and libraries that I have used over the years in carrying out projects, it is a rather long list of modules and it is very likely that they are not all necessary in the same project, in any In case those who are here are the ones that I have needed at some point in a project.
+# Development Branch some notes.
 
-No more Drupal 7 projects are development by me from the publication of Drupal 8.
-
-Supported until November 2022. Use this version for sites already running Drupal 7.
-
-- Update to 7.72
-- Spanish core locale file included.
-
-# Master branch.
-
-Drupal 7 clean, ready to install, does not contain any customization.
-
-Remenber to select Spanish locale or English.
-
-<div align="center">
-  <img src="capture.JPG"  width="400" height="auto">
-</div>
-
-# Development Branch.
-
-Work branch, contains Drupal 7 already installed, with a basic configuration and customized by me.
+In the DEVELOPMENT branch I have included all the modules and libraries that I have used in my projects, it is a long list and it is very likely that many are not needed in the same project and at the same time, the reason that they are all included is that this It allows me to do the updates without worrying about which modules that project has, then I eliminate the ones that are not used.
 
 - Includes the Database, to import it.
-- Username: admin
-- Password: drupal
+- Database user: root
+- Database password is clear.
+- Database name: drupal7.
+- Drupal username: admin
+- Drupal password: drupal
 - Only administrator allow to create accounts.
 - Core disabled modules:
   + Color
@@ -121,9 +130,33 @@ Work branch, contains Drupal 7 already installed, with a basic configuration and
 
 # Custom modules added by me.
 
-Development Branch include my personal selection of modules, used by default in my projects.
+My personal selection of modules, used by default in my projects.
 
-Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this branch.
+In the last resivision I have eliminated many that I consider that they are no longer necessary or that I prefer to do the same by hand, following a policy of "The fewer modules the better" but although many of the modules we already know that their functionality can be done "by hand "I keep them for compatibility with old sites.
+
+## About SECURITY section.
+
+I have grouped all the SECURITY modules in the same section.
+
+Most of the modules in this section do not have configured:
+
+package = "Security"
+
+In your .info file
+
+So most of them end up in the OTHERS section where there are already many modules and it is very annoying to find them.
+
+For this I have modified the .info file of each module by hand, so if you update any of these modules, you will lose that customization and will have to redo it by hand.
+
+Any alternative solution is welcome, logically the best would be for these developers to include their modules in the correct category.
+
+## Available Modules
+
+Only "Navbar" module are enable by defauld in this branch, libraries are included.
+
+# Modules List.
+
+As they appear on the Drupal modules screen, the order may vary depending on the language of your installation.
 
 - Administration
   + Navbar
@@ -224,6 +257,8 @@ Only "Navbar" and "Backup and Migrate" modules are enable by defauld in this bra
   + Webform
 
 # Libraries Modules and libraries added by module dependencies.
+
+Special mention should be made of the libraries module that is used to load libraries used by other modules
 They can be found in /sites/all/libraries, all updated to the latest versions with the exception of those that need a module in a specific version.
 
 - Libraries
@@ -233,3 +268,6 @@ They can be found in /sites/all/libraries, all updated to the latest versions wi
   + tcpdf (6.0.0.22)
   + fpdi (1.6.2)
   + Tinymce
+
+
+This is all, thanks to the thousands of people who made the Drupal 7 project possible and have continue to enjoy this great CMS.
