@@ -28,7 +28,7 @@ Does not contain any customization.
 Simple do:
 
 ```console
-$ git clone --branch master https://gitlab.com/jsampedro/drupal-7.git yourfolder
+$ git clone --branch master https://github.com/jsampe/drupal7.git yourfolder
 ```
 
 Go to localhost or your host name on hosting and install it.
@@ -66,7 +66,7 @@ My way of working is very simple.
 Clone this repository in your folder by selecting the DEVELOPMENT branch
 
 ```console
-$ Git clone --branch development https://gitlab.com/jsampedro/drupal-7.git yourfolder
+$ Git clone --branch development https://github.com/jsampe/drupal7.git yourfolder
 ```
 ### Step 2
 
