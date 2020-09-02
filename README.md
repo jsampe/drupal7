@@ -2,19 +2,15 @@
 
 Used in my old projects (Drupal 7), kept here for reference and maintenance purposes only.
 
-# Why that?
-
-Although many of my old projects have already been migrated to newer versions of Drupal, I have decided to keep this repository as a reference and a unit of study for the projects still existing in Drupal 7.
-
 No more Drupal 7 projects are development by me from the publication of Drupal 8.
 
 Remember that Drupal 7 ara only supported until November 2022.
 
-I hope that the maintainers of old Drupal 7 sites find it useful.
+I hope that the maintainers of old Drupal 7 sites like me, find it useful.
 
 # Master Branch (Clean install).
 
-In the MASTER branch I have decided to keep Drupal 7 clean and ready to install manually, as we have done so many times.
+In the MASTER branch I have decided to keep Drupal 7 clean and ready to install manually.
 
 So if you want to install Drupal 7 locally or on your Server, just do a ```GIT CLONE``` of the MASTER branch to start.
 
@@ -31,7 +27,7 @@ $ git clone --branch master https://github.com/jsampe/drupal7.git yourfolder
 
 Go to localhost or your host name on hosting and install it.
 
-Remenber to select Spanish locale or English.
+Remember that you have Spanish Locale available.
 
 <div align="center">
   <img src="CAPTURES/capture1.JPG"  width="600" height="auto">
@@ -39,23 +35,11 @@ Remenber to select Spanish locale or English.
 
 # Development Branch (Installed version).
 
-Perhaps I should have chosen the name "Installed" for this branch, but we are all more familiar with the terminology master/development.
-
-The objective of this branch is to obtain Drupal 7 and its Database with my selection of modules already installed and ready to use.
-
-# No more installs.
-
-The way of working in Drupal 7 has been more or less the same. Download Drupal, install it, download the modules and libraries one by one and install it.
-
-Repeat it over and over again every time you need to start or every time you mount a new project.
-
-(Advanced users could also solve the problem using ```DRUSH``` or ```COMPOSER```, but a prefer git)
+The objective of this branch is to make a rapid deployment of Drupal 7 with its database and modules ready to use.
 
 # This Way.
 
-My way of working is very simple.
-
-## On your personal development pc or localhost:
+This way of working is very simple.
 
 ### Step 1
 
@@ -72,41 +56,27 @@ Restore the Database.
 
 Enter with user: admin and password: drupal.
 
-Ready.
+You are finish.
 
 ## On a remote computer or Hosting.
 
-The same, but remember to edit the ```SETTINGS.PHP``` file and change the name of the server and the name of the database to that of your server.
+The same, but remember to config the ```SETTINGS.PHP``` file whit the name of the server and the name of the database to that of your server.
 
 # And now ?
 
-Logically, the first thing to do is change your administrator password.
+Change your admin password.
 
-And the second that you create a repository for your project and use this branch as your development branch.
-
-We already have Drupal ready, the next thing I usually do if it is a migration or update, enable the Backup and Migrate module and load the content.
-
-Take some time to review the list of modules and libraries installed, nothing is enabled by default.
+Take some time to review the list of modules and libraries installed, nothing is enabled by default except Navbar module.
 
 You can uninstall the modules from my list that are not needed or want or simply leave them disabled.
 
-Add the modules that your project needs.
-
-# Need to star again ?.
-
-If you break everything, start over, that's how you learn, that's why I use GIT.
-
-At least you won't have to repeat the tedious installation process.
-
-# Why you don't use DRUSH to update your projects and modules ?
-
-Some clients and projects decide not to pay maintenance, or simply the projects have not been updated for years.
-
-In this case, it is more comfortable for me to create a new local site by this procedure, make a copy of the content of the outdated site using Backup and Migrate, restore it locally, make the necessary changes and when it is ready to put the new version on the server.
+Next, add the modules that your project needs.
 
 # Development Branch some notes.
 
-In the DEVELOPMENT branch I have included the modules and libraries that I have used in my projects, it is a long list and it is very likely that many are not needed in the same project and at the same time, the reason that they are all included is that this It allows me to do the updates without worrying about which modules that project has, then I eliminate the ones that are not used.
+In the DEVELOPMENT branch I have included the modules and libraries that I have used, it is a long list and it is very likely that many are not needed in the same project and at the same time.
+
+The reason that they are all included is that this It allows me to do the updates of my projects without worrying about which modules that project has, then I eliminate the ones that are not used.
 
 - Includes the Database, to import it.
 - Database user: root
@@ -125,30 +95,26 @@ In the DEVELOPMENT branch I have included the modules and libraries that I have 
 
 # Modules added by me.
 
-My selection of modules, not all, only the used by in my projects.
-
-In the last resivision I have eliminated many that I consider that they are no longer necessary or that I prefer to do the same by hand, following a policy of "Fewer modules are better" but although many of the modules we already know that their functionality can be done "by hand " I keep them for compatibility with old sites.
+Many of the modules on this list I keep for compatibility with older sites. Although I no longer use them.
 
 ## About SECURITY section.
 
-I have grouped all the SECURITY modules in the same section.
-
-The modules in this section have configured:
+I have wanted to group all the security modules under the same group. SECURITY, Many of the security modules have not declared:
 
 ```yml
 package = "Security"
 ```
 In the .info file of the module.
 
-So most of them end up in the OTHERS section where there are already many modules and it is very annoying to find them.
+Due to this, most of them ended up in the category OTHERS where there are already many modules, and it is annoying to find them.
 
 I have modified the .info file of each module by hand, so if you update any of these modules, you will lose that customization.
 
-Any alternative solution is welcome, the best would be for these developers to include their modules in the correct category.
+So if you want to keep this order, remember to edit the file again and make the change.
 
-## Available Modules
+## Activated Modules
 
-Only "Navbar" module are enable by defauld in this branch, libraries are included.
+Only "Navbar" module are enable by defauld in this branch.
 
 # Modules List.
 
@@ -252,10 +218,10 @@ As they appear on the Drupal modules screen, the order may vary depending on the
 - Webform
   + Webform
 
-# Libraries Modules and libraries added by module dependencies.
+# Libraries Module and libraries added by module dependencies.
 
-Special mention should be made of the libraries module that is used to load libraries used by other modules
-They can be found in /sites/all/libraries, all updated to the latest versions with the exception of those that need a module in a specific version.
+Special mention should be made of the libraries module that is used to load libraries used by other modules.
+Libraries can be found in /sites/all/libraries, all updated to the latest versions with the exception of those that need a module in a specific version.
 
 - Libraries
   + Backbone JavaScript library
@@ -273,5 +239,8 @@ I have not included the translation files because they are not necessary to star
   <img src="CAPTURES/capture2.JPG"  width="800" height="auto">
 </div>
 
-# Close.
-Thanks to the thousands of people who made the Drupal 7 project possible and have continue to enjoy this great CMS.
+# Final note.
+
+About other branches that there might be,
+
+It can happen, although it is not usual, because my Drupal 7 sites have been finished for years. That I need to try a new module. In that case, they will always be in a branch one level below DEVELOPMENT with its corresponding database.
