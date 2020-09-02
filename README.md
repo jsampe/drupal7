@@ -231,6 +231,20 @@ Libraries can be found in /sites/all/libraries, all updated to the latest versio
   + fpdi (1.6.2)
   + Tinymce
 
+# DATABASE FOLDER.
+
+The DATABASE folder that is included in the development branch contains a drupal7.sql file ready to restore with phpmyadmin or your database manager.
+
+I have also included an individual copy of each table in the database in XML format, which can be useful if only one table needs to be restored.
+
++ One drupal7.sql file
++ 80 individual XML files, one for table.
++ (81 Files)
+
+<div align="center">
+  <img src="CAPTURES/capture3.JPG"  width="800" height="auto">
+</div>
+
 # What have I not included?
 
 I have not included the translation files because they are not necessary to start and to make the process faster, update the translations manually through the configuration options.
@@ -241,6 +255,6 @@ I have not included the translation files because they are not necessary to star
 
 # Final note.
 
-About other branches that there might be,
+About other branches that there might be.
 
 It can happen, although it is not usual, because my Drupal 7 sites have been finished for years. That I need to try a new module. In that case, they will always be in a branch one level below DEVELOPMENT with its corresponding database.
