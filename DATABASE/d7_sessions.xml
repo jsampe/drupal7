@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<uid>1</uid>
+		<sid>8f9rpWcueZ59C1y5K8ExCHLroGZf6vHW_nXzXtyIfgU</sid>
+		<ssid/>
+		<hostname>::1</hostname>
+		<timestamp>1599064470</timestamp>
+		<cache>0</cache>
+		<session/>
+	</RECORD>
+	<RECORD>
+		<uid>1</uid>
+		<sid>kejpwxPNUo31FE48Qws3FuRxYQf4JpkgJxHVzQuZJ7g</sid>
+		<ssid/>
+		<hostname>::1</hostname>
+		<timestamp>1598904414</timestamp>
+		<cache>0</cache>
+		<session/>
+	</RECORD>
+</RECORDS>
+

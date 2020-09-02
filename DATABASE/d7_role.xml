@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<rid>3</rid>
+		<name>administrator</name>
+		<weight>2</weight>
+	</RECORD>
+	<RECORD>
+		<rid>1</rid>
+		<name>anonymous user</name>
+		<weight>0</weight>
+	</RECORD>
+	<RECORD>
+		<rid>2</rid>
+		<name>authenticated user</name>
+		<weight>1</weight>
+	</RECORD>
+</RECORDS>
+

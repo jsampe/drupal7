@@ -1,0 +1,374 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<rid>1</rid>
+		<permission>access comments</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>1</rid>
+		<permission>access content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>1</rid>
+		<permission>use text format filtered_html</permission>
+		<module>filter</module>
+	</RECORD>
+	<RECORD>
+		<rid>2</rid>
+		<permission>access comments</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>2</rid>
+		<permission>access content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>2</rid>
+		<permission>post comments</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>2</rid>
+		<permission>skip comment approval</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>2</rid>
+		<permission>use text format filtered_html</permission>
+		<module>filter</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access administration pages</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access comments</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access content overview</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access contextual links</permission>
+		<module>contextual</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access dashboard</permission>
+		<module>dashboard</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access library reports</permission>
+		<module>libraries</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access navbar</permission>
+		<module>navbar</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access overlay</permission>
+		<module>overlay</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access site in maintenance mode</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access site reports</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access toolbar</permission>
+		<module>toolbar</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>access user profiles</permission>
+		<module>user</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer actions</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer blocks</permission>
+		<module>block</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer comments</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer content types</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer fields</permission>
+		<module>field</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer filters</permission>
+		<module>filter</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer image styles</permission>
+		<module>image</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer languages</permission>
+		<module>locale</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer menu</permission>
+		<module>menu</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer modules</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer nodes</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer permissions</permission>
+		<module>user</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer search</permission>
+		<module>search</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer shortcuts</permission>
+		<module>shortcut</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer site configuration</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer software updates</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer taxonomy</permission>
+		<module>taxonomy</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer themes</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer url aliases</permission>
+		<module>path</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>administer users</permission>
+		<module>user</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>block IP addresses</permission>
+		<module>system</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>bypass node access</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>cancel account</permission>
+		<module>user</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>change own username</permission>
+		<module>user</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>create article content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>create page content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>create url aliases</permission>
+		<module>path</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>customize shortcut links</permission>
+		<module>shortcut</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>delete any article content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>delete any page content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>delete own article content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>delete own page content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>delete revisions</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>delete terms in 1</permission>
+		<module>taxonomy</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>edit any article content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>edit any page content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>edit own article content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>edit own comments</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>edit own page content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>edit terms in 1</permission>
+		<module>taxonomy</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>post comments</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>revert revisions</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>search content</permission>
+		<module>search</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>select account cancellation method</permission>
+		<module>user</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>skip comment approval</permission>
+		<module>comment</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>switch shortcut sets</permission>
+		<module>shortcut</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>translate interface</permission>
+		<module>locale</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>use advanced search</permission>
+		<module>search</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>use text format filtered_html</permission>
+		<module>filter</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>use text format full_html</permission>
+		<module>filter</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>view own unpublished content</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>view revisions</permission>
+		<module>node</module>
+	</RECORD>
+	<RECORD>
+		<rid>3</rid>
+		<permission>view the administration theme</permission>
+		<module>system</module>
+	</RECORD>
+</RECORDS>
+

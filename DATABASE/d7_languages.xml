@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<language>en</language>
+		<name>English</name>
+		<native>English</native>
+		<direction>0</direction>
+		<enabled>1</enabled>
+		<plurals>0</plurals>
+		<formula/>
+		<domain/>
+		<prefix>en</prefix>
+		<weight>0</weight>
+		<javascript/>
+	</RECORD>
+	<RECORD>
+		<language>es</language>
+		<name>Spanish</name>
+		<native>Español</native>
+		<direction>0</direction>
+		<enabled>1</enabled>
+		<plurals>2</plurals>
+		<formula>($n!=1)</formula>
+		<domain/>
+		<prefix>es</prefix>
+		<weight>0</weight>
+		<javascript>avZfl3C3z6cKElg6TI6il1A1pB-B_BUnWcVT4KCcmWg</javascript>
+	</RECORD>
+</RECORDS>
+

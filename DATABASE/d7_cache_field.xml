@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<cid>field:user:1</cid>
+		<data>YTowOnt9</data>
+		<expire>0</expire>
+		<created>1599059924</created>
+		<serialized>1</serialized>
+	</RECORD>
+	<RECORD>
+		<cid>field_info:bundle:user:user</cid>
+		<data>YToyOntzOjk6Imluc3RhbmNlcyI7YTowOnt9czo2OiJmaWVsZHMiO2E6MDp7fX0=</data>
+		<expire>0</expire>
+		<created>1599059924</created>
+		<serialized>1</serialized>
+	</RECORD>
+</RECORDS>
+

@@ -1,0 +1,214 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<dfid>1</dfid>
+		<format>m/d/Y - H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>2</dfid>
+		<format>d/m/Y - H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>3</dfid>
+		<format>Y/m/d - H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>4</dfid>
+		<format>d.m.Y - H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>5</dfid>
+		<format>Y-m-d H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>6</dfid>
+		<format>m/d/Y - g:ia</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>7</dfid>
+		<format>d/m/Y - g:ia</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>8</dfid>
+		<format>Y/m/d - g:ia</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>9</dfid>
+		<format>M j Y - H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>10</dfid>
+		<format>j M Y - H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>11</dfid>
+		<format>Y M j - H:i</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>12</dfid>
+		<format>M j Y - g:ia</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>13</dfid>
+		<format>j M Y - g:ia</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>14</dfid>
+		<format>Y M j - g:ia</format>
+		<type>short</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>15</dfid>
+		<format>D, m/d/Y - H:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>16</dfid>
+		<format>D, d/m/Y - H:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>17</dfid>
+		<format>D, Y/m/d - H:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>18</dfid>
+		<format>D, Y-m-d H:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>19</dfid>
+		<format>F j, Y - H:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>20</dfid>
+		<format>j F, Y - H:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>21</dfid>
+		<format>Y, F j - H:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>22</dfid>
+		<format>D, m/d/Y - g:ia</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>23</dfid>
+		<format>D, d/m/Y - g:ia</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>24</dfid>
+		<format>D, Y/m/d - g:ia</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>25</dfid>
+		<format>F j, Y - g:ia</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>26</dfid>
+		<format>j F Y - g:ia</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>27</dfid>
+		<format>Y, F j - g:ia</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>28</dfid>
+		<format>j. F Y - G:i</format>
+		<type>medium</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>29</dfid>
+		<format>l, F j, Y - H:i</format>
+		<type>long</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>30</dfid>
+		<format>l, j F, Y - H:i</format>
+		<type>long</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>31</dfid>
+		<format>l, Y,  F j - H:i</format>
+		<type>long</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>32</dfid>
+		<format>l, F j, Y - g:ia</format>
+		<type>long</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>33</dfid>
+		<format>l, j F Y - g:ia</format>
+		<type>long</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>34</dfid>
+		<format>l, Y,  F j - g:ia</format>
+		<type>long</type>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<dfid>35</dfid>
+		<format>l, j. F Y - G:i</format>
+		<type>long</type>
+		<locked>1</locked>
+	</RECORD>
+</RECORDS>
+

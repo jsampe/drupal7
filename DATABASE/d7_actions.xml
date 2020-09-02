@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<aid>comment_publish_action</aid>
+		<type>comment</type>
+		<callback>comment_publish_action</callback>
+		<parameters/>
+		<label>Publish comment</label>
+	</RECORD>
+	<RECORD>
+		<aid>comment_save_action</aid>
+		<type>comment</type>
+		<callback>comment_save_action</callback>
+		<parameters/>
+		<label>Save comment</label>
+	</RECORD>
+	<RECORD>
+		<aid>comment_unpublish_action</aid>
+		<type>comment</type>
+		<callback>comment_unpublish_action</callback>
+		<parameters/>
+		<label>Unpublish comment</label>
+	</RECORD>
+	<RECORD>
+		<aid>node_make_sticky_action</aid>
+		<type>node</type>
+		<callback>node_make_sticky_action</callback>
+		<parameters/>
+		<label>Make content sticky</label>
+	</RECORD>
+	<RECORD>
+		<aid>node_make_unsticky_action</aid>
+		<type>node</type>
+		<callback>node_make_unsticky_action</callback>
+		<parameters/>
+		<label>Make content unsticky</label>
+	</RECORD>
+	<RECORD>
+		<aid>node_promote_action</aid>
+		<type>node</type>
+		<callback>node_promote_action</callback>
+		<parameters/>
+		<label>Promote content to front page</label>
+	</RECORD>
+	<RECORD>
+		<aid>node_publish_action</aid>
+		<type>node</type>
+		<callback>node_publish_action</callback>
+		<parameters/>
+		<label>Publish content</label>
+	</RECORD>
+	<RECORD>
+		<aid>node_save_action</aid>
+		<type>node</type>
+		<callback>node_save_action</callback>
+		<parameters/>
+		<label>Save content</label>
+	</RECORD>
+	<RECORD>
+		<aid>node_unpromote_action</aid>
+		<type>node</type>
+		<callback>node_unpromote_action</callback>
+		<parameters/>
+		<label>Remove content from front page</label>
+	</RECORD>
+	<RECORD>
+		<aid>node_unpublish_action</aid>
+		<type>node</type>
+		<callback>node_unpublish_action</callback>
+		<parameters/>
+		<label>Unpublish content</label>
+	</RECORD>
+	<RECORD>
+		<aid>system_block_ip_action</aid>
+		<type>user</type>
+		<callback>system_block_ip_action</callback>
+		<parameters/>
+		<label>Ban IP address of current user</label>
+	</RECORD>
+	<RECORD>
+		<aid>user_block_user_action</aid>
+		<type>user</type>
+		<callback>user_block_user_action</callback>
+		<parameters/>
+		<label>Block current user</label>
+	</RECORD>
+</RECORDS>
+

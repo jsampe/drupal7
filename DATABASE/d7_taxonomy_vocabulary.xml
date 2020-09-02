@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<vid>1</vid>
+		<name>Etiquetas</name>
+		<machine_name>tags</machine_name>
+		<description>Utilice etiquetas para agrupar artículos sobre temas similares en categorías.</description>
+		<hierarchy>0</hierarchy>
+		<module>taxonomy</module>
+		<weight>0</weight>
+	</RECORD>
+</RECORDS>
+

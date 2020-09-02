@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<format>filtered_html</format>
+		<name>Filtered HTML</name>
+		<cache>1</cache>
+		<status>1</status>
+		<weight>0</weight>
+	</RECORD>
+	<RECORD>
+		<format>full_html</format>
+		<name>Full HTML</name>
+		<cache>1</cache>
+		<status>1</status>
+		<weight>1</weight>
+	</RECORD>
+	<RECORD>
+		<format>plain_text</format>
+		<name>Plain text</name>
+		<cache>1</cache>
+		<status>1</status>
+		<weight>10</weight>
+	</RECORD>
+</RECORDS>
+

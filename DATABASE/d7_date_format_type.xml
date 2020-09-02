@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<type>long</type>
+		<title>Largo</title>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<type>medium</type>
+		<title>Medio</title>
+		<locked>1</locked>
+	</RECORD>
+	<RECORD>
+		<type>short</type>
+		<title>Corto</title>
+		<locked>1</locked>
+	</RECORD>
+</RECORDS>
+

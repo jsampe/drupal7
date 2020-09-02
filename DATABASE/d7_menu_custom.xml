@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<menu_name>main-menu</menu_name>
+		<title>Menú principal</title>
+		<description>El menú &lt;em&gt;Principal&lt;/em&gt; se usa en muchos sitios web para mostrar las secciones principales del sitio, generalmente en una barra de navegación superior.</description>
+	</RECORD>
+	<RECORD>
+		<menu_name>management</menu_name>
+		<title>Management</title>
+		<description>El menú &lt;em&gt;Administrar&lt;/em&gt; contiene enlaces a tareas administrativas.</description>
+	</RECORD>
+	<RECORD>
+		<menu_name>navigation</menu_name>
+		<title>Navegación</title>
+		<description>El menú de &lt;em&gt;Navegación&lt;/em&gt; contiene enlaces para los visitantes al sitio. Algunos módulos agregan enlaces al menú de &lt;em&gt;Navegación&lt;/em&gt; automáticamente.</description>
+	</RECORD>
+	<RECORD>
+		<menu_name>user-menu</menu_name>
+		<title>User menu</title>
+		<description>El menú &lt;em&gt;Usuario&lt;/em&gt; contiene enlaces relacionados con la cuenta del usuario, como el enlace &apos;Cerrar sesión&apos;.</description>
+	</RECORD>
+</RECORDS>
+

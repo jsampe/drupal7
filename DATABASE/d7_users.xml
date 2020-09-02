@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<RECORDS>
+	<RECORD>
+		<uid>0</uid>
+		<name/>
+		<pass/>
+		<mail/>
+		<theme/>
+		<signature/>
+		<signature_format/>
+		<created>0</created>
+		<access>0</access>
+		<login>0</login>
+		<status>0</status>
+		<timezone/>
+		<language/>
+		<picture>0</picture>
+		<init/>
+		<data/>
+	</RECORD>
+	<RECORD>
+		<uid>1</uid>
+		<name>admin</name>
+		<pass>$S$DWZy1.cpT0adGkp7KEbBGVYpCDgPbCF1Jz7DSmnhgk3AH8N2B1MC</pass>
+		<mail>mail@mail.com</mail>
+		<theme/>
+		<signature/>
+		<signature_format/>
+		<created>1598574636</created>
+		<access>1599064470</access>
+		<login>1599059924</login>
+		<status>1</status>
+		<timezone>Europe/London</timezone>
+		<language/>
+		<picture>0</picture>
+		<init>mail@mail.com</init>
+		<data>YjowOw==</data>
+	</RECORD>
+</RECORDS>
+
