@@ -239,7 +239,7 @@ I have also included an individual copy of each table in the database in XML for
 
 + One drupal7.sql file
 + 80 individual XML files, one for table.
-+ (81 Files Total)
++ (81 Files)
 
 <div align="center">
   <img src="CAPTURES/capture3.JPG"  width="800" height="auto">
